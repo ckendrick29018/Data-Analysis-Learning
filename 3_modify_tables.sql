@@ -46,4 +46,4 @@ COPY skills_job_dim
 FROM 'C:\Users\craig\Desktop\data_projects\sql_projects\csv_files_files\csv_files\skills_job_dim.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
-SELECT * FROM skills_dim LIMIT 100;
+SELECT * FROM job_postings_fact LIMIT 100;
